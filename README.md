@@ -1,6 +1,8 @@
 # Spotlight in your shell
-Make bash application behave like Spotlight in Mac
-Quicky search a file from bash.
+Make bash application behave like Spotlight in Mac.
+
+> Quickly search a file from bash.
+ 
 
 ## Usage
 - From containing folder run <code>./h.sh</code>
