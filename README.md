@@ -10,4 +10,4 @@ Make bash application behave like Spotlight in Mac.
 - exit by <kbd>Ctrl</kbd> + <kbd>C</kbd>
 
 ## Debug
- Run as `./h.sh --debug`
+ Run as `./h.sh --debug` to see hexdump of input word and hexdecimal order of the last letter. Useful for adding new keys to UI.
