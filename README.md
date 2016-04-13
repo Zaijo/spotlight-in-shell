@@ -7,7 +7,7 @@ Make bash application behave like Spotlight in Mac.
 ## Usage
 - From containing folder run <code>./h.sh</code>
 - type your query (to be contained anywhere in the file, not just beginnings of lines)
-- exit by <kbd>Ctrl</kbd> + <kbd>C</kbd>
+- exit by pressing <kbd>Esc</kbd>
 
 ## Debug
  Run as `./h.sh --debug` to see hexdump of input word and hexdecimal order of the last letter. Useful for adding new keys to UI.

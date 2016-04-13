@@ -1,10 +1,7 @@
 #!/bin/bash
 
-trap backspace SIGTSTP
-
 debug=false
 if [ -n "$1" ]; then
-    echo "Running in DEBUG mode"
     debug=true
 fi
 
@@ -38,6 +35,9 @@ while true; do
     input_ord=`ord "$input"`
     if [ "$input_ord" == "7f" ]; then
     	backspace
+    elif [ "$input_ord" == "1b" ]; then 
+	echo "Bye!"
+        exit 0
     else
         word=${word}${input}
         search
