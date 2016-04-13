@@ -6,6 +6,8 @@ Make bash application behave like Spotlight in Mac.
 
 ## Usage
 - From containing folder run <code>./h.sh</code>
-- type letters
-- delete last letter by <kbd>Ctrl</kbd> + <kbd>Z</kbd>
+- type your query (to be contained anywhere in the file, not just beginnings of lines)
 - exit by <kbd>Ctrl</kbd> + <kbd>C</kbd>
+
+## Debug
+ Run as `./h.sh --debug`
